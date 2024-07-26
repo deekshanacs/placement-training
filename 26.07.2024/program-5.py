@@ -1,0 +1,10 @@
+
+mtp = input("Enter a string: ")
+ms = (input_string,)
+reversed_tp = tuple(reversed(input_string))
+print("Reversed string tuple:", reversed_tp)
+input_num = input("Enter a sequence of numbers separated by spaces: ")
+_list = list(map(int, input_num.split()))
+_tuple = tuple(_list)
+reversed_tp = tuple(reversed(_tuple))
+print("Reversed numbers tuple:", reversed_tp)
